@@ -4,7 +4,7 @@
 	"sap.app": {
 		"id": "com.snokai.butterfly.collection.table",
 		"type": "application",
-		"i18n": "i18n/i18n.properties",
+		"i18n": "i18n/i18n_en.properties",
 		"title": "{{appTitle}}",
 		"description": "{{appDescription}}",
 		"applicationVersion": {
@@ -49,7 +49,8 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "com.snokai.butterfly.collection.table.i18n.i18n"
+					"bundleName": "com.snokai.butterfly.collection.table.i18n.i18n",
+					"supportedLocales": ["en", "pl"]
 				}
 			}
 		},
